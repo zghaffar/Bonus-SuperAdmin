@@ -8,7 +8,13 @@ import { RulesConfig, RuleGroup as RuleGroupType, LogicOperator } from "@/types/
 export function RulesBuilder() {
   const [config, setConfig] = useState<RulesConfig>({
     globalLogic: 'any',
-    groups: [],
+    groups: [
+      {
+        id: crypto.randomUUID(),
+        logic: 'any',
+        rules: [],
+      },
+    ],
   });
 
   const handleGlobalLogicChange = (logic: LogicOperator) => {
