@@ -88,15 +88,6 @@ export function RulesBuilder() {
           </Button>
         </div>
 
-        {/* Preview JSON (for development) */}
-        {config.groups.length > 0 && (
-          <div className="mt-8 p-4 bg-muted rounded-lg">
-            <h3 className="text-sm font-medium text-muted-foreground mb-2">Configuration Preview:</h3>
-            <pre className="text-xs text-muted-foreground overflow-x-auto">
-              {JSON.stringify(config, null, 2)}
-            </pre>
-          </div>
-        )}
       </div>
     </div>
   );
