@@ -48,7 +48,7 @@ export function RulesBuilder() {
     <div className="min-h-screen bg-background p-6 md:p-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <h1 className="text-2xl font-medium text-foreground/80 italic mb-6">Rules</h1>
+        <h1 className="text-2xl font-medium text-foreground/80 italic mb-6">SuperAdmin - Rules</h1>
 
         {/* Global Logic */}
         <div className="flex items-center gap-2 mb-6 text-sm">
